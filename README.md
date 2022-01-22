@@ -1,2 +1,1 @@
-This project build 
-Use parcel-roject-template
+This project use Webpack 5 build
