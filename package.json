@@ -1,9 +1,10 @@
 {
   "name": "goit-js-hw-08",
   "version": "1.0.0",
-  "description": "This project build \r Use parcel-roject-template",
+  "description": "Webpack build 5",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --mode=development",
     "dev": "webpack-dev-server --mode=development",
     "prod": "webpack --mode=production"
   },
@@ -24,6 +25,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1",
